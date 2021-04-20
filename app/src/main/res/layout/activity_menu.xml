@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/luckiest_guy"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bungee"
+            android:text="Coffee"
+            android:background="@drawable/tbg2"
+            android:textAlignment="center"
+            android:textColor="#EDEDD5"
+            android:textSize="60sp"
+            android:onClick="Coff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bungee"
+            android:text="Mocktails"
+            android:background="@drawable/mct"
+            android:textAlignment="center"
+            android:textColor="#EDEDD5"
+            android:textSize="60sp"
+            android:onClick="Mock"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bungee"
+            android:text="Starters"
+            android:background="@drawable/sw"
+            android:textAlignment="center"
+            android:textColor="#EDEDD5"
+            android:textSize="60sp"
+            android:onClick="Star"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bungee"
+            android:text="Breads"
+            android:background="@drawable/tbg3"
+            android:textAlignment="center"
+            android:textColor="#EDEDD5"
+            android:textSize="60sp"
+            android:onClick="Bred"/>
+
+    </LinearLayout>
+
+</LinearLayout>

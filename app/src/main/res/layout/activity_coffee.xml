@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffee"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/luckiest_guy"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cpch"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/coff"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/esp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/fpp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="+"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/white"
+                        android:layout_height="match_parent"
+                        android:onClick="incCapp"/>
+
+                    <TextView
+                        android:id="@+id/cappNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:textSize="100sp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"/>
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginRight="16dp"
+                        android:text="-"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/white"
+                        android:layout_height="match_parent"
+                        android:onClick="decCapp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="+"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/white"
+                        android:layout_height="match_parent"
+                        android:onClick="incAmer"/>
+
+                    <TextView
+                        android:id="@+id/amerNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:textSize="100sp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"/>
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginRight="16dp"
+                        android:text="-"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/white"
+                        android:layout_height="match_parent"
+                        android:onClick="decAmer"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="+"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/white"
+                        android:layout_height="match_parent"
+                        android:onClick="incEsp"/>
+
+                    <TextView
+                        android:id="@+id/espNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:textSize="100sp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"/>
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginRight="16dp"
+                        android:text="-"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/white"
+                        android:layout_height="match_parent"
+                        android:onClick="decEsp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="+"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/white"
+                        android:layout_height="match_parent"
+                        android:onClick="incFrap"/>
+
+                    <TextView
+                        android:id="@+id/frapNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="0"
+                        android:textSize="100sp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"/>
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:layout_marginRight="16dp"
+                        android:text="-"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/white"
+                        android:layout_height="match_parent"
+                        android:onClick="decFrap"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
